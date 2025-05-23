@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+header {
+    background-color: #FFE500;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+a, a:hover { 
+    text-decoration: none;
+    color: unset;
+}
+
+html, body {
+    background-color: #E8E8E8;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+} 
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    color: #636363;
+}
+
+.card {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+}
+
+.line-bottom {
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.btn-page-container {
+    width: 220px;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.btn {
+    height: 42px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-buy {
+    background-color: #3483FA;
+    color: #fff;
+}
+    
+.btn-first {
+    background-color: #fff;
+    color: #3483FA;
+    border: 1px solid #3483FA;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
