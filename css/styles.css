@@ -24,13 +24,6 @@
     font-family: 'Open Sans', 'sans-serif';
 }
 
-header {
-    background-color: var(--dsc-color-bg-secondary);
-    height: 70px;
-    display: flex;
-    align-items: center;
-}
-
 a, a:hover { 
     text-decoration: none;
     color: unset;
@@ -40,6 +33,27 @@ html, body {
     background-color: var(--dsc-color-bg-primary);
 }
 
+/* ----------------------------------------------- */
+/* generic styles */
+.dsc-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+} 
+
+.dsc-mb20 {
+    margin-bottom: 20px;
+}
+
+/* ----------------------------------------------- */
+/* header styles */
+header {
+    background-color: var(--dsc-color-bg-secondary);
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -47,12 +61,18 @@ nav {
     color: var(--dsc-color-bg-tertiary);
 }
 
-.dsc-container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-} 
+nav h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
 
+nav a {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* ----------------------------------------------- */
+/* card styles */
 .dsc-card {
     background-color: var(--dsc-color-card-bg);
     border-radius: 4px;
@@ -63,6 +83,8 @@ nav {
     border-bottom: 1px solid var(--dsc-color-card-border);
 }
 
+/* ----------------------------------------------- */
+/* button styles */
 .dsc-btn-page-container {
     width: 220px;
     display: grid;
@@ -88,8 +110,4 @@ nav {
     background-color: var(--dsc-color-card-bg);
     color: var(--dsc-color-btn-primary);
     border: 1px solid var(--dsc-color-btn-primary);
-}
-
-.dsc-mb20 {
-    margin-bottom: 20px;
 }
