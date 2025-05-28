@@ -161,6 +161,15 @@ nav a {
     border-radius: 4px;
     background-color: var(--dsc-color-bg-search);
     padding: 10px;
+    transition: border 0.1s ease;
+}
+
+.dsc-form-search input{
+    outline: none;
+}
+
+.dsc-form-search:focus-within {
+  border: 2px solid var(--dsc-color-input-border);
 }
 
 .dsc-search-bar input {
@@ -169,11 +178,7 @@ nav a {
     background: transparent;
     border: none;
     font-size: 15px;
-    color: var(--dsc-color-font-primary);
-}
-
-.dsc-search-bar:focus {
-    outline: none;
+    color: #636363;
 }
 
 .dsc-search-bar input::placeholder {
@@ -194,7 +199,7 @@ nav a {
 }
 
 /* ----------------------------------------------- */
-/* form styles */
+/* login styles */
 .dsc-form {
     display: flex;
     flex-direction: column;
